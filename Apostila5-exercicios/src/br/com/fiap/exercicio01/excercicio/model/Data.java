@@ -10,7 +10,7 @@ public class Data {
     public String dataFormatada(){
 
 
-        return dia+"/"+mes+"/"+ano+"/";
+        return dia+"/"+mes+"/"+ano;
 
     }
 
@@ -66,7 +66,10 @@ public class Data {
             case 7 : return "Julho";
             case 8 : return "Agosto";
             case 9 : return "Setembro";
-            case 10 :
+            case 10 :return "Outubro";
+            case 11: return "Novembro";
+            case 12: return "Dezembro";
+            default : return "Janeiro";
 
 
         }
